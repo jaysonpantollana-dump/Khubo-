@@ -3,7 +3,6 @@ import Categories from '../components/Categories';
 import ListingCard from '../components/ListingCard';
 import BottomNav from '../components/BottomNav';
 import Filters, { FilterState } from '../components/Filters';
-import Footer from '../components/Footer';
 import { LISTINGS } from '../data/listings';
 import { motion, AnimatePresence } from 'motion/react';
 import React, { useState, useMemo, useRef } from 'react';
@@ -242,7 +241,6 @@ export default function Home() {
         )}
       </main>
 
-      <Footer />
       <BottomNav />
     </div>
   );
